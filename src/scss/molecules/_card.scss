@@ -1,0 +1,11 @@
+
+.card {
+  background: $color-background-heading;
+  box-shadow: 0 1px 10px 0 $color-shadow;
+  margin-bottom: 3rem;
+  padding: 1rem;
+
+  &__title {
+    margin-top: 0;
+  }
+}
