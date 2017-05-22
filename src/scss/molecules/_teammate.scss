@@ -1,0 +1,37 @@
+
+.teammate {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+
+  &__name,
+  &__role {
+    order: 2;
+    transition: color .2s ease;
+  }
+
+  &__name {
+    margin: .5rem 0 0;
+  }
+
+  &__role {
+    font-size: .9rem;
+    margin: 0;
+  }
+
+  &__pic {
+    border-radius: 20rem;
+    filter: grayscale(100%);
+    order: 1;
+    overflow: hidden;
+    transition: filter .2s ease-in-out;
+  }
+
+  @include hover() {
+    .teammate__name,
+    .teammate__role {
+      color: $fi-red;
+    }
+    .teammate__pic { filter: grayscale(0%); }
+  }
+}
