@@ -1,0 +1,14 @@
+
+.main-title {
+  font-family: $font-family-sans;
+  margin: auto;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 0;
+  }
+
+  &__subtitle {
+    margin: 0 0 1.5rem;
+  }
+}
