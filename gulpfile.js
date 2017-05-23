@@ -27,7 +27,7 @@ var gulp        = require('gulp'),
 
 var bases = {
     app:  'src/',
-    dist: 'dist/',
+    dist: 'dist/**/*',
 };
 
 colors.setTheme({
