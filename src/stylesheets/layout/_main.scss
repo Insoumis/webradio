@@ -1,0 +1,44 @@
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.page {
+  max-width: 500px;
+  margin: auto;
+  padding: 0 1rem;
+
+  p {
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  ul {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: #C9462C;
+    display: block;
+    font-size: 3rem;
+    padding: 1rem;
+    transition: color .2s;
+
+    &:hover,
+    &:focus {
+      color: #00B6CD;
+    }
+  }
+}
