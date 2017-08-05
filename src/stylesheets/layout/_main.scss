@@ -9,6 +9,7 @@ body {
 }
 
 .page {
+  box-sizing: border-box;
   max-width: 500px;
   padding: 0 1rem;
 
@@ -21,10 +22,13 @@ body {
       font-size: 1.5rem;
       margin: 1rem 0 0;
       padding: 0;
-      
+      text-align: left;
+
       @media screen and (min-width: 500px) {
-        font-size: 1.5rem;
-        margin: -3.5rem 0 0 13rem;
+        float: right;
+        font-size: 1.3rem;
+        margin: -3.5rem 0 0 0;
+        width: 15.5rem
       }
     }
   }
