@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Émission
+vid: show
+description: ''
+hierarchy: 0
+weight: 0

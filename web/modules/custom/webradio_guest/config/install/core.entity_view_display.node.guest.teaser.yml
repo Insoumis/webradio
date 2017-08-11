@@ -1,0 +1,33 @@
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.guest.body
+    - field.field.node.guest.field_activity
+    - field.field.node.guest.field_guest_links
+    - field.field.node.guest.field_image
+    - node.type.guest
+  module:
+    - text
+    - user
+id: node.guest.teaser
+targetEntityType: node
+bundle: guest
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_activity: true
+  field_guest_links: true
+  field_image: true

@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.staff_member.field_role
+    - field.field.paragraph.staff_member.field_staff
+    - paragraphs.paragraphs_type.staff_member
+id: paragraph.staff_member.default
+targetEntityType: paragraph
+bundle: staff_member
+mode: default
+content:
+  field_role:
+    weight: 1
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_staff:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

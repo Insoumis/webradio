@@ -1,0 +1,59 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.webradio_theme_banner_large
+    - image.style.webradio_theme_banner_medium
+    - image.style.webradio_theme_banner_small
+    - image.style.webradio_theme_banner_mobile
+    - image.style.webradio_theme_banner_retina_large
+    - image.style.webradio_theme_banner_retina_medium
+    - image.style.webradio_theme_banner_retina_small
+    - image.style.webradio_theme_banner_retina_mobile
+  theme:
+    - webradio_theme
+id: webradio_theme_responsive_banner
+label: 'Bearskin8pl - Responsive Banner'
+image_style_mappings:
+  -
+    breakpoint_id: webradio_theme.large
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_banner_large
+  -
+    breakpoint_id: webradio_theme.large
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_banner_retina_large
+  -
+    breakpoint_id: webradio_theme.medium
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_banner_medium
+  -
+    breakpoint_id: webradio_theme.medium
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_banner_retina_medium
+  -
+    breakpoint_id: webradio_theme.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_banner_small
+  -
+    breakpoint_id: webradio_theme.small
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_banner_retina_small
+  -
+    breakpoint_id: webradio_theme.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_banner_mobile
+  -
+    breakpoint_id: webradio_theme.mobile
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_banner_retina_mobile
+breakpoint_group: webradio_theme
+fallback_image_style: webradio_theme_banner_mobile

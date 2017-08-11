@@ -1,0 +1,56 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.guest.body
+    - field.field.node.guest.field_activity
+    - field.field.node.guest.field_guest_links
+    - field.field.node.guest.field_image
+    - image.style.thumbnail
+    - node.type.guest
+  module:
+    - entity_reference_revisions
+    - image
+    - text
+    - user
+id: node.guest.default
+targetEntityType: node
+bundle: guest
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 300
+    third_party_settings: {  }
+    region: content
+  field_activity:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_guest_links:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  links: true

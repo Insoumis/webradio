@@ -1,0 +1,23 @@
+name: Épisode
+description: 'Provides Épisode content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - audiofield
+  - datetime
+  - entity_reference_revisions
+  - field
+  - file
+  - inline_entity_form
+  - menu_ui
+  - node
+  - paragraphs
+  - path
+  - taxonomy
+  - text
+  - user
+  - video_embed_field
+  - webradio_commons
+  - webradio_guest
+  - webradio_staff
+package: Webradio

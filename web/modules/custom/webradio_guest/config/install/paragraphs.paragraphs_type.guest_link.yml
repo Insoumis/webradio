@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+id: guest_link
+label: 'Lien invité⋅e'
+behavior_plugins: {  }

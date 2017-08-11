@@ -1,0 +1,53 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.webradio_theme_default_image
+    - image.style.webradio_theme_mobile_image
+  theme:
+    - webradio_theme
+id: webradio_theme_responsive_image
+label: 'Bearskin8pl - Responsive Image'
+image_style_mappings:
+  -
+    breakpoint_id: webradio_theme.large
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_default_image
+  -
+    breakpoint_id: webradio_theme.large
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_retina_default_image
+  -
+    breakpoint_id: webradio_theme.medium
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_default_image
+  -
+    breakpoint_id: webradio_theme.medium
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_retina_default_image
+  -
+    breakpoint_id: webradio_theme.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_mobile_image
+  -
+    breakpoint_id: webradio_theme.small
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_retina_mobile_image
+  -
+    breakpoint_id: webradio_theme.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_mobile_image
+  -
+    breakpoint_id: webradio_theme.mobile
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: webradio_theme_retina_mobile_image
+breakpoint_group: webradio_theme
+fallback_image_style: webradio_theme_mobile_image

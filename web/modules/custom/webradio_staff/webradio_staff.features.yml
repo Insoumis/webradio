@@ -1,0 +1,11 @@
+bundle: webradio
+excluded:
+  - core.entity_form_display.paragraph.staff_member.default
+  - core.entity_view_display.paragraph.staff_member.default
+  - field.field.paragraph.staff_member.field_role
+  - field.field.paragraph.staff_member.field_staff
+  - field.storage.paragraph.field_role
+  - field.storage.paragraph.field_staff
+  - paragraphs.paragraphs_type.staff_member
+  - taxonomy.vocabulary.role
+required: true

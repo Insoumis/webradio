@@ -1,0 +1,7 @@
+name: Webradio Commons
+description: 'Common configuration and alterations for Webradio Features.'
+type: module
+core: 8.x
+dependencies:
+  - image
+  - node

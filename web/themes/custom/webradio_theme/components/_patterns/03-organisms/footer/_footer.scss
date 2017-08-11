@@ -1,0 +1,17 @@
+.wrapper-footer {
+  @include padding(1, 0);
+
+  background: $ui-lightest-grey;
+}
+
+.sticky-footer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  .wrapper-main {
+    position: relative;
+    flex: 1 0 auto;
+    overflow: hidden;
+  }
+}

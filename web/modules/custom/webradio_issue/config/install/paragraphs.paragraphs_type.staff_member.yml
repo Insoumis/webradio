@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+id: staff_member
+label: 'Membre de l''équipe'
+behavior_plugins: {  }

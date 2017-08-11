@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.node.embed
+    - field.field.paragraph.staff_member.field_role
+    - field.field.paragraph.staff_member.field_staff
+    - paragraphs.paragraphs_type.staff_member
+  module:
+    - inline_entity_form
+id: paragraph.staff_member.default
+targetEntityType: paragraph
+bundle: staff_member
+mode: default
+content:
+  field_role:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+    region: content
+  field_staff:
+    weight: 0
+    settings:
+      form_mode: embed
+      override_labels: true
+      label_singular: Personne
+      label_plural: Personnes
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

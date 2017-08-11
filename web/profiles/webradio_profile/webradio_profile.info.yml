@@ -1,0 +1,43 @@
+name: Webradio
+type: profile
+description: Webradio Insoumise install profile
+core: 8.x
+dependencies:
+  - adminimal_admin_toolbar
+  - admin_toolbar_tools
+  - block
+  - breakpoint
+  - ckeditor
+  - components
+  - config
+  - contact
+  - contextual
+  - datetime
+  - dynamic_page_cache
+  - editor
+  - file
+  - help
+  - image
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - path
+  - page_cache
+  - quickedit
+  - responsive_image
+  - search
+  - shortcut
+  - taxonomy
+  - views
+
+  # Features
+  - webradio_issue
+
+  # Dev
+  - dblog
+  - field_ui
+  - views_ui
+themes:
+  - webradio_theme
+  - adminimal_theme

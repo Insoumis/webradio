@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Rôle
+vid: role
+description: 'Rôles du staff pendant les émissions'
+hierarchy: 0
+weight: 0

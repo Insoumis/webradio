@@ -1,0 +1,139 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.node.embed
+    - field.field.node.issue.body
+    - field.field.node.issue.field_audio
+    - field.field.node.issue.field_date
+    - field.field.node.issue.field_guests
+    - field.field.node.issue.field_show
+    - field.field.node.issue.field_staff
+    - field.field.node.issue.field_themes
+    - field.field.node.issue.field_video
+    - node.type.issue
+  module:
+    - datetime
+    - file
+    - inline_entity_form
+    - paragraphs
+    - path
+    - text
+    - video_embed_field
+id: node.issue.default
+targetEntityType: node
+bundle: issue
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 4
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_audio:
+    weight: 7
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_date:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_guests:
+    weight: 5
+    settings:
+      form_mode: embed
+      override_labels: true
+      label_singular: Invité⋅e
+      label_plural: Invité⋅e⋅s
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
+  field_show:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_staff:
+    type: entity_reference_paragraphs
+    weight: 13
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: preview
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+  field_themes:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+    region: content
+  field_video:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+    region: content
+  path:
+    type: path
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 10
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 11
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 8
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }
