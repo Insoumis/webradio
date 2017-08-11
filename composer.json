@@ -21,6 +21,7 @@
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/adminimal_admin_toolbar": "~1.0",
         "drupal/adminimal_theme": "~1.0",
+        "drupal/audiofield": "~1.0",
         "drupal/bear_skin": "~2.0",
         "drupal/components": "~1.0",
         "drupal/console": "~1.0",
@@ -40,6 +41,7 @@
         "drupal/role_delegation": "~1.0",
         "drupal/scheduler": "~1.0",
         "drupal/token": "~1.0",
+        "drupal/video_embed_field": "~1.0",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"
