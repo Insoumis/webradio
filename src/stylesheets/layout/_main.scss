@@ -52,28 +52,12 @@ body {
 
   a {
     color: #C9462C;
-    display: block;
     text-decoration: none;
     transition: color .2s;
 
     &:hover,
     &:focus {
       color: #00B6CD;
-    }
-  }
-
-  .social-links {
-    align-items: center;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    a {
-      font-size: 3rem;
-      padding: 1rem;
     }
   }
 }
