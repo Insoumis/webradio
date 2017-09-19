@@ -1,0 +1,46 @@
+
+.jobs {
+  list-style: none;
+  padding: 0;
+
+  &__item {
+    margin-bottom: 1rem;
+
+    button {
+      background: $fi-blue-light;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      display: block;
+      padding: .5rem;
+      transition: background .5s ease-in-out, color .5s ease-in-out;
+      width: 100%;
+
+      &:hover {
+        background: $fi-blue;
+      }
+    }
+
+    dt {
+      font-weight: bold;
+    }
+
+    dd {
+      margin-left: 1.5rem;
+      margin-bottom: .5rem;
+    }
+  }
+}
+
+[data-module="collapsible-job"].is-loaded {
+  .details { display: none; }
+
+  &.is-open {
+    button {
+      background: $fi-red;
+      color: white;
+    }
+
+    .details { display: block; }
+  }
+}

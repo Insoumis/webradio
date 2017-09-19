@@ -1,0 +1,15 @@
+<div data-module="collapsible-job">
+  <h3><button>{{ job.name }}</button></h3>
+  <dl class="details">
+    <dt>Rôle</dt>
+    <dd>{{ job.description }}</dd>
+    <dt>Prérequis</dt>
+    <dd>
+      <ul class="prerequisites">
+        {% for prerequisite in job.prerequisites %}
+        <li>{{ prerequisite }}</li>
+        {% endfor %}
+      </ul>
+    </dd>
+  </dl>
+</div>
