@@ -1,8 +1,4 @@
 body {
-  align-items: center;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -13,6 +9,7 @@ body {
 
 .page {
   box-sizing: border-box;
+  margin: auto;
   max-width: 500px;
   padding: 0 1rem;
 
