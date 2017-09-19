@@ -1,4 +1,5 @@
 body {
+  color: $fi-dark-grey;
   margin: 0;
   padding: 0;
 }
@@ -23,7 +24,7 @@ body {
   }
 
   h1 {
-    color: #C9462C;
+    color: $fi-red;
     padding-bottom: 1rem;
 
     p {
@@ -51,13 +52,13 @@ body {
   }
 
   a {
-    color: #C9462C;
+    color: $fi-red;
     text-decoration: none;
     transition: color .2s;
 
     &:hover,
     &:focus {
-      color: #00B6CD;
+      color: $fi-blue;
     }
   }
 }
