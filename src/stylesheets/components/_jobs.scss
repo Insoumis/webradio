@@ -7,7 +7,7 @@
     margin-bottom: 1rem;
 
     button {
-      background: $fi-blue-light;
+      background: $fi-grey-light;
       border: none;
       border-radius: 2px;
       cursor: pointer;
@@ -17,7 +17,7 @@
       width: 100%;
 
       &:hover {
-        background: $fi-blue;
+        background: $fi-blue-light;
       }
     }
 
