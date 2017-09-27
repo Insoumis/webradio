@@ -3,40 +3,35 @@
   "title": "Radio Insoumise : la web radio du Discord Insoumis",
   "jobs": [
     {
+      "name": "Réalisateur⋅rice / Streamer⋅euse",
+      "description": "Hébergement et responsabilité de l’intégrité technique de l’émission.",
+      "prerequisites": [
+        "Etre familier⋅e avec OBS (ou accepter d'être formé⋅e, c'est facile et rapide)",
+        "Avoir une bonne connection Internet"
+      ]
+    },
+    {
+      "name": "Monteur⋅euse / Vidéaste",
+      "description": "Gestion du montage et de la post-production des travaux (vidéo et audio).",
+      "prerequisites": [
+        "Savoir utiliser la suite Adobe ou équivalent libre"
+      ]
+    },
+    {
+      "name": "Secrétaire",
+      "description": "Soutien des différents pôles de travail de la WebRadio. Realisation de documents.",
+      "prerequisites": [
+        "Connaître Discord et Youtube",
+        "Capacités rédactionnelles"
+      ]
+    },
+    {
       "name": "Chroniqueur⋅se",
       "description": "Rédiger et animer des formats courts.",
       "prerequisites": [
         "Avoir un gout prononcé pour l’actualité et la recherche documentaire",
         "S'exprimer correctement à l'oral et à l'écrit",
         "Avoir l'esprit à la fois critique et créatif"
-      ]
-    },
-    {
-      "name": "Animateur⋅trice",
-      "description": "Donner vie à l’émission et distribuer la parole. Enrichir et guider le débat. Préparer les émissions et gérer les interviews.",
-      "prerequisites": [
-        "Être un⋅e bon⋅ne orateur⋅rice"
-      ]
-    },
-    {
-      "name": "Correcteur⋅trice",
-      "description": "Correction orthographique et syntaxique des documents de la WebRadio.",
-      "prerequisites": [
-        "Orthographe et syntaxe parfaite"
-      ]
-    },
-    {
-      "name": "Graphiste",
-      "description": "Production des supports visuels de la radio.",
-      "prerequisites": [
-        "Maîtrise des logiciels de graphisme"
-      ]
-    },
-    {
-      "name": "Créateur⋅rice audio / Ingénieur⋅e son / Musicien⋅ne",
-      "description": "Production de l'habillage sonore des émissions (génériques, jingles…) et création de l'identité sonore de la radio.",
-      "prerequisites": [
-        "Maitrise des logiciels adaptés"
       ]
     },
     {
@@ -47,19 +42,10 @@
       ]
     },
     {
-      "name": "Réalisateur⋅rice / Streamer⋅euse",
-      "description": "Hébergement et responsabilité de l’intégrité technique de l’émission.",
+      "name": "Graphiste",
+      "description": "Production des supports visuels de la radio.",
       "prerequisites": [
-        "Etre familier⋅e avec OBS (ou accepter d'être formé⋅e, c'est facile et rapide)",
-        "Avoir une bonne connection Internet"
-      ]
-    },
-    {
-      "name": "Secrétaires",
-      "description": "Soutien des différents pôles de travail de la WebRadio. Realisation de documents.",
-      "prerequisites": [
-        "Connaître Discord et Youtube",
-        "Capacités rédactionnelles"
+        "Maîtrise des logiciels de graphisme"
       ]
     },
     {
@@ -71,10 +57,24 @@
       ]
     },
     {
-      "name": "Monteur⋅euse / Vidéaste",
-      "description": "Gestion du montage et de la post-production des travaux (vidéo et audio).",
+      "name": "Animateur⋅trice",
+      "description": "Donner vie à l’émission et distribuer la parole. Enrichir et guider le débat. Préparer les émissions et gérer les interviews.",
       "prerequisites": [
-        "Savoir utiliser la suite Adobe ou équivalent libre"
+        "Être un⋅e bon⋅ne orateur⋅rice"
+      ]
+    },
+    {
+      "name": "Créateur⋅rice audio / Ingénieur⋅e son / Musicien⋅ne",
+      "description": "Production de l'habillage sonore des émissions (génériques, jingles…) et création de l'identité sonore de la radio.",
+      "prerequisites": [
+        "Maitrise des logiciels adaptés"
+      ]
+    },
+    {
+      "name": "Correcteur⋅trice",
+      "description": "Correction orthographique et syntaxique des documents de la WebRadio.",
+      "prerequisites": [
+        "Orthographe et syntaxe parfaite"
       ]
     }
   ]
