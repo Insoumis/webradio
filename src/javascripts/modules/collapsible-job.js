@@ -6,6 +6,6 @@ export default class CollapsibleJob {
   }
 
   handleClick(e) {
-    e.srcElement.parentNode.parentNode.classList.toggle('is-open')
+    e.target.parentNode.parentNode.classList.toggle('is-open')
   }
 }
